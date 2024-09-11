@@ -1,0 +1,29 @@
+@media (width>810px){
+    .side-menu-screen{
+        display: none;
+    }
+    body{
+        overflow:scroll;
+    }
+}
+@media (max-width: 810px){
+    .navbar-left div,
+    .navbar-right{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}
+
+@media (max-width: 770px){
+    #no1, #no2, #no3, #no4, #no5, #no6{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 730px){
+    .note{
+        margin: 50px 10px 30px 10px;
+    }
+}
